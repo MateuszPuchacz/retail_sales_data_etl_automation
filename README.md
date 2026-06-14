@@ -20,7 +20,7 @@ The framework was designed to:
 * Replace manual VLOOKUP-based data enrichment processes.
 * Integrate supplementary business datasets and lookup tables.
 * Automate product, store and assortment mapping.
-* Reduce dependency on individual employees and undocumented knowledge.
+* Reduce dependency on individual employees.
 * Simplify onboarding and future maintenance.
 * Ensure consistent reporting structures across departments.
 * Provide a scalable foundation for future reporting and automation initiatives.
