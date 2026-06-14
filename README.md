@@ -1,14 +1,34 @@
 # retail_sales_data_etl_automation
 Power Query ETL automation in Excel built to transform raw retail sales exports into reporting ready datasets for weekly business reporting.
 
-<p align="center">
+<div align="center">
 
-<img src="https://img.shields.io/badge/Excel_2013-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white"/>
-<img src="https://img.shields.io/badge/Power_Query-217346?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/ETL_Framework-0A66C2?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Retail_Analytics-1F6FEB?style=for-the-badge"/>
+# Retail Sales Data ETL Automation
 
-</p>
+```text
+┌───────────────────────────────────────────────┐
+│               DATA FLOW OVERVIEW              │
+├───────────────────────────────────────────────┤
+│                                               │
+│  Raw Sales Exports                            │
+│         │                                     │
+│         ▼                                     │
+│  Power Query ETL Framework                    │
+│         │                                     │
+│         ├── Data Validation                   │
+│         ├── Product Enrichment                │
+│         ├── Store Mapping                     │
+│         ├── Brick Assignment                  │
+│         ├── Business Rules                    │
+│         ▼                                     │
+│  Reporting Ready Dataset                      │
+│                                               │
+└───────────────────────────────────────────────┘
+```
+
+**65+ Hypermarkets • 1M+ Weekly Records • One-Click Refresh**
+
+</div>
 
 ## 1. Project Background
 
