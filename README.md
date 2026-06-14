@@ -22,3 +22,35 @@ The framework was designed to:
 * Simplify onboarding and future maintenance.
 * Ensure consistent reporting structures across departments.
 * Provide a scalable foundation for future reporting and automation initiatives.
+
+## 3. Architecture Overview
+
+3. Architecture Overview
+
+The solution is built around a centralized Power Query ETL framework designed to automate weekly retail data preparation.
+
+All transformation logic is maintained within a single Excel 2013 workbook, while source files and supplementary reference datasets are stored separately. This architecture allows business users to replace source files and refresh the entire workflow without modifying transformation logic.
+
+Project Structure
+retail-sales-data-etl-automation/
+│
+├── weekly_data_etl.xlsx
+│
+├── data/
+│   └── data.xlsx
+│
+└── supplementary/
+    └── supplementary.xlsx
+
+## Architecture Flow
+Sales Exports
+      │
+      ▼
+Power Query ETL
+      ├── Data Validation
+      ├── Data Standardization
+      ├── Data Enrichment
+      ├── Store Mapping
+      ├── Business Rules
+      ▼
+      Reporting Ready Dataset
