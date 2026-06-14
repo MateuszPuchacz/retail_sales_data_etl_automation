@@ -28,7 +28,7 @@ The framework was designed to:
 The solution is built around a centralized Power Query ETL framework designed to automate weekly retail data preparation.
 All transformation logic is maintained within a single Excel 2013 workbook, while source files and supplementary reference datasets are stored separately. This architecture allows business users to replace source files and refresh the entire workflow without modifying transformation logic.
 
-##Project Structure
+## Project Structure
 
 ```
 retail-sales-data-etl-automation/
@@ -40,8 +40,10 @@ retail-sales-data-etl-automation/
 │
 └── supplementary/
     └── supplementary.xlsx
-
+```
 ## Architecture Flow
+
+```
 Sales Exports
       │
       ▼
