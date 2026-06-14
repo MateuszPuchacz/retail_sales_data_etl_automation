@@ -15,10 +15,12 @@ The objective of this project was to build a reusable Power Query ETL framework 
 
 The framework was designed to:
 
-standardize weekly sales data preparation,
-centralize transformation logic in a single workflow,
-integrate supplementary business datasets,
-automate data enrichment and mapping processes,
-ensure consistency across departments,
-simplify maintenance and onboarding,
-provide a scalable foundation for future reporting and automation initiatives.
+* Standardize weekly sales data preparation.
+* Centralize transformation logic within a single workflow.
+* Replace manual VLOOKUP-based data enrichment processes.
+* Integrate supplementary business datasets and lookup tables.
+* Automate product, store and assortment mapping.
+* Reduce dependency on individual employees and undocumented knowledge.
+* Simplify onboarding and future maintenance.
+* Ensure consistent reporting structures across departments.
+* Provide a scalable foundation for future reporting and automation initiatives.
