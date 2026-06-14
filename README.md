@@ -17,7 +17,7 @@ The framework was designed to:
 
 * Standardize weekly sales data preparation.
 * Centralize transformation logic within a single workflow.
-* Replace manual VLOOKUP-based data enrichment processes.
+* Replace manual VLOOKUP based data enrichment processes.
 * Integrate supplementary business datasets and lookup tables.
 * Automate product, store and assortment mapping.
 * Reduce dependency on individual employees.
