@@ -2,33 +2,23 @@
 Power Query ETL automation in Excel built to transform raw retail sales exports into reporting ready datasets for weekly business reporting.
 
 
-Project:
-  Name: Retail Sales Data ETL Automation
 
-Input:
-  - Weekly Sales Export
-  - Product Master Data
-  - Store Mapping
-  - Supplementary Tables
+/*
+PROJECT: RETAIL SALES DATA ETL AUTOMATION
 
-Transform:
-  - Validation
-  - Cleansing
-  - Enrichment
-  - Business Rules
-  - Brick Assignment
+Problem:
+Manual VLOOKUP-based reporting process.
 
-Output:
-  - Reporting Ready Dataset
+Solution:
+Centralized Power Query ETL framework.
 
-Impact:
-  - 65+ Hypermarkets
-  - Reduced Manual Work
-  - Automated Refresh Process
+Result:
+One-click refresh and reporting-ready datasets.
 
-**65+ Hypermarkets • 1M+ Weekly Records • One-Click Refresh**
-
-</div>
+Scale:
+65+ Hypermarkets
+1M+ Weekly Records
+*/
 
 ## 1. Project Background
 
