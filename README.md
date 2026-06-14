@@ -3,7 +3,7 @@ Power Query ETL automation built to transform raw retail sales exports into repo
 
 
 
-##1. Project Background
+## 1. Project Background
 
 The Textile Department relied on a manual weekly reporting process based on Excel VLOOKUPs, file merges and repetitive data preparation tasks.
 Every Monday morning, sales data had to be prepared before reporting deadlines. The process depended on multiple employees manually enriching exported datasets with product, store and assortment information.
