@@ -6,10 +6,8 @@ Power Query ETL automation built to transform raw retail sales exports into repo
 ## 1. Project Background
 
 The Textile (TXT) Department relied on a manual weekly reporting process based on Excel VLOOKUPs, file merges and repetitive data preparation tasks.
-
 Every Monday morning, sales data had to be prepared before reporting deadlines. As data volumes increased, the process became difficult to maintain, highly dependent on individual knowledge and increasingly vulnerable to delays or personnel changes.
-
-To address these challenges, a centralized Power Query ETL framework was developed to automate data preparation and provide fast access to reporting-ready datasets through a single refresh process.
+To address these challenges, a centralized Power Query ETL framework I developed to automate data preparation and provide fast access to reporting ready datasets through a single refresh process.
 
 ## 2. Objective
 
