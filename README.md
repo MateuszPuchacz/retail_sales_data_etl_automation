@@ -25,7 +25,6 @@ Impact:
   - 65+ Hypermarkets
   - Reduced Manual Work
   - Automated Refresh Process
-```
 
 **65+ Hypermarkets • 1M+ Weekly Records • One-Click Refresh**
 
