@@ -25,8 +25,8 @@ The framework was designed to:
 
 ## 3. Architecture Overview
 
-The solution is built around a centralized Power Query ETL framework designed to automate weekly retail data preparation.
-All transformation logic is maintained within a single Excel workbook, while source files and supplementary reference datasets are stored separately. This architecture allows business users to replace source files and refresh the entire workflow without modifying transformation logic.
+The solution is built around a reusable Power Query ETL workflow that automates weekly retail data preparation. All transformation logic is maintained within a single Excel workbook, while source files and supplementary reference datasets are stored separately.
+The workflow was designed to be easily deployed across multiple retail departments. After initial configuration, users only need to replace source files and refresh the workbook to generate updated reporting data without modifying any transformation steps.
 
 ## Project Structure
 
