@@ -21,7 +21,7 @@ By centralizing transformation logic into a single workflow, the project signifi
 
 The project is built around a centralized Power Query ETL architecture designed to standardize weekly sales data preparation across multiple textile departments.
 All transformation logic is maintained within a single Excel workbook, while source files and supplementary datasets are stored separately. This approach simplifies maintenance, improves scalability and allows business rules to be managed in one location.
-The architecture was designed to support different departments using the same ETL structure while maintaining department-specific source files, mappings and business attributes.
+The architecture was designed to support different departments using the same ETL structure while maintaining department specific source files, mappings and business attributes.
 Once configured, the process requires only two actions:
 Replace source files.
 Refresh the workbook.
