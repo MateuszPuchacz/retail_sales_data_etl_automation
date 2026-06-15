@@ -3,7 +3,7 @@ Power Query ETL automation in Excel built to transform raw retail sales exports 
 
 ## 1. Business Problem
 
-The Textile (TXT) Department relied on a manual weekly reporting process based on Excel VLOOKUPs, multiple source files and repetitive data preparation tasks.
+The Textile (TXT) Department relied on a manual weekly preparing data for reporting process based on Excel VLOOKUPs, multiple source files and repetitive data preparation tasks.
 Every Monday, sales data had to be manually consolidated, validated and enriched before reporting deadlines. As data volumes increased, the process became increasingly time consuming, difficult to maintain and highly dependent on individual knowledge.
 To address these challenges, I developed a reusable Power Query ETL solution that standardized data preparation, automated transformation logic and created a common reporting structure that could be deployed across multiple departments.
 
