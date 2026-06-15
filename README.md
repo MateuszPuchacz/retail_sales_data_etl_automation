@@ -1,4 +1,4 @@
-# retail_sales_data_etl_automationm
+# retail_sales_data_etl_automation
 Power Query ETL automation in Excel built to transform raw retail sales exports into reporting ready datasets for weekly business reporting.
 
 ## 1. Business Problem
