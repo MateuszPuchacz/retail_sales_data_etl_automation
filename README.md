@@ -30,7 +30,7 @@ The ETL workflow then automatically generates a fully standardized and reporting
 
 
 **Project Structure**
-
+![scheme](./images/scheme.png)
 
 ## 4.Why This Project Matters
 
