@@ -32,7 +32,7 @@ The ETL workflow then automatically generates a fully standardized and reporting
 **Project Structure**
 ![scheme](./images/scheme.png)
 
-## 4.Why This Project Matters
+## 4. Project Summary
 
 Many organizations continue to rely on spreadsheet based reporting processes despite increasing adoption of modern BI platforms.
 This project demonstrates how meaningful operational improvements can be achieved using tools that are already available in many business environments. In this case, Excel 2013 together with the Power Query add in was sufficient to transform a long standing manual workflow into a structured and repeatable ETL process.
