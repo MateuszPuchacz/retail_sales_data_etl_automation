@@ -33,6 +33,9 @@ Refresh the workbook.
 The ETL workflow then automatically generates a fully standardized and reporting-ready dataset.
 
 Project Structure
+
+
+```
 retail-sales-data-etl-automation/
 │
 ├── weekly_data_etl.xlsx
@@ -59,7 +62,7 @@ Power Query ETL
         ▼
 Reporting Ready Dataset
 
-
+```
 
 
 
