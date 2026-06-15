@@ -35,37 +35,6 @@ The ETL workflow then automatically generates a fully standardized and reporting
 Project Structure
 
 
-```
-retail-sales-data-etl-automation/
-│
-├── weekly_data_etl.xlsx
-│
-├── data/
-│   └── data.xlsx
-│
-└── supplementary/
-    └── supplementary.xlsx
-
-[SCREENSHOT – Project Folder Structure]
-
-Architecture Flow
-Sales Data Exports
-        │
-        ▼
-Power Query ETL
-        │
-        ├── Data Validation
-        ├── Data Standardization
-        ├── Data Enrichment
-        ├── Store Mapping
-        ├── Business Rules
-        ▼
-Reporting Ready Dataset
-
-```
-
-
-
 ![scheme](./images/scheme.png)
 
 
