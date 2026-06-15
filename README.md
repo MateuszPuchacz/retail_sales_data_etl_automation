@@ -44,7 +44,7 @@ retail-sales-data-etl-automation/
 ## Architecture Flow
 
 ```
-Sales Exports
+Sales Data  Exports
       │
       ▼
 Power Query ETL
