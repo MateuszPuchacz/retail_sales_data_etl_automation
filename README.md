@@ -27,14 +27,16 @@ Replace source files.
 Refresh the workbook.
 The ETL workflow then automatically generates a fully standardized and reporting ready dataset.
 
+
+**Project Structure**
+![scheme](./images/scheme.png)
+
 ## 4. Automation process
 
 
 
 
 
-**Project Structure**
-![scheme](./images/scheme.png)
 
 ## 5. Project Summary
 
