@@ -36,7 +36,6 @@ The ETL workflow then automatically generates a fully standardized and reporting
 
 Many organizations continue to rely on spreadsheet based reporting processes despite increasing adoption of modern BI platforms.
 This project demonstrates how meaningful operational improvements can be achieved using tools that are already available in many business environments. In this case, Excel 2013 together with the Power Query add in was sufficient to transform a long standing manual workflow into a structured and repeatable ETL process.
-To preserve business confidentiality, all source data, file structures and business terminology presented in this repository have been anonymized and simplified. The solution reflects the overall architecture, transformation approach and reporting workflow used in a real business environment while removing company specific information.
 The objective of this repository is to demonstrate practical ETL development, data integration, transformation logic and reporting automation within a real operational context. The focus is not on the industry itself, but on designing a maintainable process that reduces manual effort, improves data consistency and delivers reliable analytical datasets for decision making.
 
 
