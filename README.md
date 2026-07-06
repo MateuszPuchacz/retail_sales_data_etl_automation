@@ -8,11 +8,7 @@ Many organizations  still rely on manual, Excel-based processes to prepare data 
 
 ## 2. Solution Overview
 
-To eliminate manual reporting preparation, I designed and developed a centralized Power Query ETL framework within Excel 2013.
-The solution acts as a data preparation layer between raw sales exports and the final reporting process used by the Textile Department. Instead of maintaining hundreds of VLOOKUPs and manual mappings each week a lot hours, all transformation logic was consolidated into a single automated workflow.
-Users only need to replace the latest source files and refresh the model. During refresh, the ETL process automatically validates, transforms and enriches the data using supplementary datasets containing store information, coordinator assignments, product hierarchies, seasonal collections, brick classifications, model mappings and other business attributes.
-The final output is a standardized and reporting ready dataset that can be immediately used for operational reporting, KPI analysis and business decision making.
-By centralizing transformation logic into a single workflow, the project significantly reduced manual preparation effort while improving data consistency, maintainability and process continuity across the department.
+The solution is a centralized Power Query ETL framework built within Excel, acting as a data preparation layer between raw sales exports and the final reporting process. All transformation logic — previously scattered across hundreds of VLOOKUPs and manual mappings — was consolidated into a single automated workflow. Users only need to replace the latest source files and refresh the model. During refresh, the process automatically validates, transforms, and enriches the data using supplementary datasets, including store information, coordinator assignments, product hierarchies, seasonal collections, store lvl, model mappings, and other business attributes. The output is a standardized, reporting-ready dataset that can be used immediately for operational reporting, KPI analysis, and business decision-making.
 
 
 
