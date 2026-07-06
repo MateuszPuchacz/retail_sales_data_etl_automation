@@ -10,9 +10,16 @@ Many organizations  still rely on manual, Excel-based processes to prepare data 
 
 The solution is a centralized Power Query ETL framework built within Excel, acting as a data preparation layer between raw sales exports and the final reporting process. All transformation logic previously scattered across hundreds of VLOOKUP's and manual mappings was consolidated into a single automated workflow. Users only need to replace the latest source files and refresh the model. During refresh, the process automatically validates, transforms, and enriches the data using supplementary datasets, including store information, coordinator assignments, product hierarchies, seasonal collections, store lvl, model mappings, and other business attributes. The output is a standardized, reporting-ready dataset that can be used immediately for operational reporting, KPI analysis, and business decision-making.
 
+## 3. Tools
 
+### Excel + Power Query
 
-## 3. Architecture Overview
+This project first time in my work was developed using **Excel 2013** with the **Microsoft Power Query** add-in.
+Many organizations still use older versions of Excel and are unaware that Power Query is available for Excel 2010 and 2013 as a free add-in. As a result, repetitive tasks are often performed manually using formulas such as VLOOKUP, even though they can be automated through a reusable ETL workflow. Power Query was integrated directly into Excel starting with **Excel 2016** under **Data → Get & Transform**, eliminating the need for a separate installation. :contentReference[oaicite:0]{index=0}
+
+If you are working with Excel 2010 or 2013, simply install the Power Query add-in and you can build the same ETL workflows demonstrated in this project. :contentReference[oaicite:1]{index=1}
+
+## 4. Architecture Overview
 
 The project is built around a centralized Power Query ETL architecture designed to standardize weekly sales data preparation across multiple textile departments.
 All transformation logic is maintained within a single Excel workbook, while source files and supplementary datasets are stored separately. This approach simplifies maintenance, improves scalability and allows business rules to be managed in one location.
