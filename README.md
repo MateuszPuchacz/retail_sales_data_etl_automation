@@ -3,9 +3,8 @@ Power Query ETL automation in Excel built to transform raw retail sales exports 
 
 ## 1. Business Problem
 
-The Textile (TXT) Department relied on a manual weekly preparing data for reporting process based on Excel VLOOKUPs, multiple source files and repetitive data preparation tasks.
-Every Monday, sales data had to be manually consolidated, validated and enriched before reporting deadlines. As data volumes increased, the process became increasingly time consuming, difficult to maintain and highly dependent on individual knowledge.
-To address these challenges, I developed a reusable Power Query ETL solution that standardized data preparation, automated transformation logic and created a common reporting structure that could be deployed across multiple departments.
+Many organizations  still rely on manual, Excel-based processes to prepare data for reporting. Typically, this involves VLOOKUP-based , multiple source files, and repetitive, manual data preparation before every reporting cycle. As data volumes grow, this approach becomes increasingly difficult to maintain, more error-prone, and heavily dependent on individual knowledge. Working with hundreds of thousands of rows using VLOOKUP often results in slow performance and Excel instability, while repetitive data preparation becomes monotonous and time-consuming. Consequently, tasks that could be automated and managed by a single person are frequently performed manually by multiple employees. The Textile (TXT) Department, where I currently work with data, was a practical example of these challenges. Every Monday, sales data from multiple exports had to be consolidated, validated, and enriched with supplementary business data before reporting deadlines. To eliminate these manual bottlenecks, I developed a reusable Power Query ETL solution that automated the entire data preparation process, standardized transformation logic, and produced a reporting-ready dataset with a single refresh. The solution was designed to be easily adapted and reused across multiple retail departments.
+
 
 ## 2. Solution Overview
 
