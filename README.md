@@ -8,7 +8,7 @@ Many organizations  still rely on manual, Excel-based processes to prepare data 
 
 ## 2. Solution Overview
 
-The solution is a centralized Power Query ETL framework built within Excel, acting as a data preparation layer between raw sales exports and the final reporting process. All transformation logic previously scattered across hundreds of VLOOKUPs and manual mappings was consolidated into a single automated workflow. Users only need to replace the latest source files and refresh the model. During refresh, the process automatically validates, transforms, and enriches the data using supplementary datasets, including store information, coordinator assignments, product hierarchies, seasonal collections, store lvl, model mappings, and other business attributes. The output is a standardized, reporting-ready dataset that can be used immediately for operational reporting, KPI analysis, and business decision-making.
+The solution is a centralized Power Query ETL framework built within Excel, acting as a data preparation layer between raw sales exports and the final reporting process. All transformation logic previously scattered across hundreds of VLOOKUP's and manual mappings was consolidated into a single automated workflow. Users only need to replace the latest source files and refresh the model. During refresh, the process automatically validates, transforms, and enriches the data using supplementary datasets, including store information, coordinator assignments, product hierarchies, seasonal collections, store lvl, model mappings, and other business attributes. The output is a standardized, reporting-ready dataset that can be used immediately for operational reporting, KPI analysis, and business decision-making.
 
 
 
