@@ -8,7 +8,10 @@ Many organizations  still rely on manual, Excel-based processes to prepare data 
 
 ## 2. Solution Overview
 
-The solution is a centralized Power Query ETL framework built within Excel, acting as a data preparation layer between raw sales exports and the final reporting process. All transformation logic previously scattered across hundreds of VLOOKUP's and manual mappings was consolidated into a single automated workflow. Users only need to replace the latest source files and refresh the model. During refresh, the process automatically validates, transforms, and enriches the data using supplementary datasets, including store information, coordinator assignments, product hierarchies, seasonal collections, store lvl, model mappings, and other business attributes. The output is a standardized, reporting-ready dataset that can be used immediately for operational reporting, KPI analysis, and business decision-making.
+### Excel + Power Query
+
+The original ETL workflow was designed and implemented in a production environment using **Excel 2013** with the **Microsoft Power Query** add-in. At the time, Power Query was not widely adopted within the organization, and most data preparation relied on manual Excel formulas such as VLOOKUP and repetitive copy-paste operations. For this portfolio project, the solution has been recreated in **Microsoft Office Professional 2021** using an anonymized dataset that closely reflects the structure and business logic of the original process. The ETL workflow, transformation logic, and automation principles remain the same.
+ **Note:** If you are using **Excel 2010 or Excel 2013**, Power Query is available as a free Microsoft add-in. Starting with **Excel 2016**, it is built directly into Excel as **Get & Transform Data**, so no separate installation is required.
 
 ## 3. Tools
 
