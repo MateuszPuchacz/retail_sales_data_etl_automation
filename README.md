@@ -21,7 +21,7 @@ The original ETL workflow was designed and implemented in a retail environment u
 For this portfolio project, the solution has been recreated in **Microsoft Office Professional 2021** using an anonymized dataset that closely reflects the structure and business logic of the original process. The ETL workflow, transformation logic, and automation principles remain unchanged.
 Note: In **Excel 2010 and 2013**, **Power Query** is available as a free Microsoft add-in. Starting with **Excel 2016**, it is built directly into Excel as Get & Transform Data, so no separate installation is required.
 
-## 4. Architecture Overview
+## 4.🏗️ Architecture Overview
 
 The project is built around a centralized Power Query ETL architecture designed to standardize weekly sales data preparation across multiple textile departments.
 All transformation logic is maintained within a single Excel workbook, while source files and supplementary datasets are stored separately. This approach simplifies maintenance, improves scalability and allows business rules to be managed in one location.
