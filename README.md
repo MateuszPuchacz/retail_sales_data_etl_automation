@@ -17,10 +17,9 @@ The solution is a centralized Power Query ETL framework built within Excel 2013,
 
 ### Excel + Power Query
 
-The original ETL workflow was designed and implemented in a production environment using Excel 2013 with the Power Query add-in. At the time, Power Query was not widely adopted within the organization, and most data preparation relied on manual Excel formulas such as VLOOKUP and repetitive copy-paste operations.
+The original ETL workflow was designed and implemented in a retail environment using Excel 2013, the version provided by the company's IT license at the time, together with the Power Query add-in. Power Query was not widely adopted within the organization at that point, and most data preparation relied on manual Excel formulas such as VLOOKUP and repetitive copy-paste operations.
 For this portfolio project, the solution has been recreated in Microsoft Office Professional 2021 using an anonymized dataset that closely reflects the structure and business logic of the original process. The ETL workflow, transformation logic, and automation principles remain unchanged.
 Note: In Excel 2010 and 2013, Power Query is available as a free Microsoft add-in. Starting with Excel 2016, it is built directly into Excel as Get & Transform Data, so no separate installation is required.
-
 
 ## 4. Architecture Overview
 
