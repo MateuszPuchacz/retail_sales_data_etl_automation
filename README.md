@@ -18,9 +18,8 @@ The original ETL workflow was designed and implemented in a production environme
 ### Excel + Power Query
 
 This project first time in my work was developed using **Excel 2013** with the **Microsoft Power Query** add-in.
-Many organizations still use older versions of Excel and are unaware that Power Query is available for Excel 2010 and 2013 as a free add-in. As a result, repetitive tasks are often performed manually using formulas such as VLOOKUP, even though they can be automated through a reusable ETL workflow. Power Query was integrated directly into Excel starting with **Excel 2016** under **Data → Get & Transform**, eliminating the need for a separate installation. :contentReference[oaicite:0]{index=0}
-
-If you are working with Excel 2010 or 2013, simply install the Power Query add-in and you can build the same ETL workflows demonstrated in this project. :contentReference[oaicite:1]{index=1}
+Many organizations still use older versions of Excel and are unaware that Power Query is available for Excel 2010 and 2013 as a free add-in. As a result, repetitive tasks are often performed manually using formulas such as VLOOKUP, even though they can be automated through a reusable ETL workflow. Power Query was integrated directly into Excel starting with **Excel 2016** under **Data → Get & Transform**, eliminating the need for a separate installation. 
+If you are working with Excel 2010 or 2013, simply install the Power Query add-in and you can build the same ETL workflows demonstrated in this project.
 
 ## 4. Architecture Overview
 
