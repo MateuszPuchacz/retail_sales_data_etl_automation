@@ -30,12 +30,5 @@ Note: In **Excel 2010 and 2013**, **Power Query** is available as a free Microso
 
 
 
- 
-
-## 5. Project Summary
-
-Many organizations continue to rely on spreadsheet based reporting processes despite increasing adoption of modern BI platforms.
-This project demonstrates how meaningful operational improvements can be achieved using tools that are already available in many business environments. In this case, Excel 2013 together with the Power Query add in was sufficient to transform a long standing manual workflow into a structured and repeatable ETL process.
-The objective of this repository is to demonstrate practical ETL development, data integration, transformation logic and reporting automation within a real operational context. The focus is not on the industry itself, but on designing a maintainable process that reduces manual effort, improves data consistency and delivers reliable analytical datasets for decision making.
 
 
