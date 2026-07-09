@@ -32,3 +32,5 @@ Note: In **Excel 2010 and 2013**, **Power Query** is available as a free Microso
 
 
 
+
+
